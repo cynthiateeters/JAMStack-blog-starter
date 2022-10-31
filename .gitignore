@@ -1,0 +1,14 @@
+# dependencies installed by npm
+# https://docs.netlify.com/integrations/frameworks/eleventy/#requirement-for-build-plugins
+**/node_modules/**
+
+# build artefacts
+public
+css
+
+# secrets and errors
+.env
+.log
+
+# macOS related files
+.DS_Store
